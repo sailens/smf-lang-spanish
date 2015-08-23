@@ -8,112 +8,112 @@ global $forum_copyright, $webmaster_email, $scripturl, $context, $boardurl;
 //   - http://www.php.net/function.pspell-new
 //   - http://www.php.net/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
-$txt['lang_locale'] = 'en_US';
-$txt['lang_dictionary'] = 'en';
-$txt['lang_spelling'] = 'american';
+$txt['lang_locale'] = 'es_ES';
+$txt['lang_dictionary'] = 'es';
+$txt['lang_spelling'] = '';
 
 // Ensure you remember to use uppercase for character set strings.
-$txt['lang_character_set'] = 'ISO-8859-1';
+$txt['lang_character_set'] = 'UTF-8';
 // Character set and right to left?
 $txt['lang_rtl'] = false;
 // Number format.
-$txt['number_format'] = '1,234.00';
+$txt['number_format'] = '1.234,00';
 
-$txt['days_title'] = 'Days';
-$txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-$txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+$txt['days_title'] = 'Días';
+$txt['days'] = array('Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado');
+$txt['days_short'] = array('Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb');
 // Months must start with 1 => 'January'. (or translated, of course.)
-$txt['months_title'] = 'Months';
-$txt['months'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_titles'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+$txt['months_title'] = 'Meses';
+$txt['months'] = array(1 => 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+$txt['months_titles'] = array(1 => 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+$txt['months_short'] = array(1 => 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic');
 
-$txt['minutes_label'] = 'Minutes';
-$txt['hours_label'] = 'Hours';
-$txt['years_title'] = 'Years';
+$txt['minutes_label'] = 'Minutos';
+$txt['hours_label'] = 'Horas';
+$txt['years_title'] = 'Años';
 
 $txt['time_am'] = 'am';
 $txt['time_pm'] = 'pm';
 
-$txt['admin'] = 'Admin';
-$txt['moderate'] = 'Moderate';
+$txt['admin'] = 'Admin'; // TODO: administrar, administración, administrador...?
+$txt['moderate'] = 'Moderate'; // TODO: moderar, moderación?
 
-$txt['save'] = 'Save';
-$txt['upload'] = 'Upload';
+$txt['save'] = 'Guardar';
+$txt['upload'] = 'Subir';
 
-$txt['modify'] = 'Modify';
-$txt['forum_index'] = '%1$s - Index';
-$txt['members'] = 'Members';
-$txt['board_name'] = 'Board name';
-$txt['posts'] = 'Posts';
+$txt['modify'] = 'Modificar';
+$txt['forum_index'] = '%1$s - Index'; // TODO: Mirar dónde se usa esto
+$txt['members'] = 'Usuarios';
+$txt['board_name'] = 'Foros';
+$txt['posts'] = 'Mensajes';
 
-$txt['member_postcount'] = 'Posts';
-$txt['no_subject'] = '(No subject)';
-$txt['view_profile'] = 'View Profile';
-$txt['guest_title'] = 'Guest';
-$txt['author'] = 'Author';
-$txt['on'] = 'on';
-$txt['remove'] = 'Remove';
-$txt['start_new_topic'] = 'Start new topic';
+$txt['member_postcount'] = 'Mensajes';
+$txt['no_subject'] = '(Sin asunto)';
+$txt['view_profile'] = 'Ver perfil';
+$txt['guest_title'] = 'Invitado';
+$txt['author'] = 'Autor';
+$txt['on'] = 'a las'; // TODO: Comprobar
+$txt['remove'] = 'Remove'; // TODO: borrar, eliminar?
+$txt['start_new_topic'] = 'Crear un nuevo hilo';
 
-$txt['login'] = 'Login';
+$txt['login'] = 'Iniciar sesión';
 // Use numeric entities in the below string.
-$txt['username'] = 'Username';
-$txt['password'] = 'Password';
+$txt['username'] = 'Usuario';
+$txt['password'] = 'Contraseña';
 
-$txt['username_no_exist'] = 'That username does not exist.';
-$txt['no_user_with_email'] = 'There are no usernames associated with that email.';
+$txt['username_no_exist'] = 'That username does not exist.'; // TODO
+$txt['no_user_with_email'] = 'There are no usernames associated with that email.'; // TODO
 
-$txt['board_moderator'] = 'Board Moderator';
-$txt['remove_topic'] = 'Remove Topic';
-$txt['topics'] = 'Topics';
-$txt['modify_msg'] = 'Modify message';
-$txt['name'] = 'Name';
+$txt['board_moderator'] = 'Board Moderator'; // TODO
+$txt['remove_topic'] = 'Eliminar hilo';
+$txt['topics'] = 'Hilos';
+$txt['modify_msg'] = 'Modificar mensaje';
+$txt['name'] = 'Nombre';
 $txt['email'] = 'Email';
-$txt['user_email_address'] = 'Email Address';
-$txt['subject'] = 'Subject';
-$txt['message'] = 'Message';
-$txt['redirects'] = 'Redirects';
-$txt['quick_modify'] = 'Modify Inline';
-$txt['reason_for_edit'] = 'Reason for editing';
+$txt['user_email_address'] = 'Email';
+$txt['subject'] = 'Asunto';
+$txt['message'] = 'Mensaje';
+$txt['redirects'] = 'Redirects'; // TODO
+$txt['quick_modify'] = 'Modify Inline'; // TODO
+$txt['reason_for_edit'] = 'Reason for editing'; // TODO
 
-$txt['choose_pass'] = 'Choose password';
-$txt['verify_pass'] = 'Verify password';
-$txt['notify_announcements'] = 'Allow the administrators to send me important news by email';
+$txt['choose_pass'] = 'Choose password'; // TODO
+$txt['verify_pass'] = 'Verify password'; // TODO
+$txt['notify_announcements'] = 'Permitir a los administradores enviarme noticias importantes por correo electrónico';
 
-$txt['position'] = 'Position';
+$txt['position'] = 'Posición';
 
-$txt['profile_of'] = 'View the profile of';
+$txt['profile_of'] = 'Ver el perfil de';
 $txt['total'] = 'Total';
-$txt['website'] = 'Website';
-$txt['register'] = 'Sign Up';
-$txt['warning_status'] = 'Warning Status';
-$txt['user_warn_watch'] = 'User is on moderator watch list';
-$txt['user_warn_moderate'] = 'User posts join approval queue';
-$txt['user_warn_mute'] = 'User is banned from posting';
-$txt['warn_watch'] = 'Watched';
-$txt['warn_moderate'] = 'Moderated';
-$txt['warn_mute'] = 'Muted';
+$txt['website'] = 'Página web';
+$txt['register'] = 'Registrarse';
+$txt['warning_status'] = 'Warning Status'; // TODO
+$txt['user_warn_watch'] = 'User is on moderator watch list'; // TODO
+$txt['user_warn_moderate'] = 'User posts join approval queue'; // TODO
+$txt['user_warn_mute'] = 'User is banned from posting'; // TODO
+$txt['warn_watch'] = 'Vigilado';
+$txt['warn_moderate'] = 'Moderado';
+$txt['warn_mute'] = 'Silenciado';
 
-$txt['message_index'] = 'Message Index';
-$txt['news'] = 'News';
-$txt['home'] = 'Home';
-$txt['page'] = 'Page';
-$txt['prev'] = 'previous page';
-$txt['next'] = 'next page';
+$txt['message_index'] = 'Message Index'; // TODO
+$txt['news'] = 'Noticias';
+$txt['home'] = 'Inicio';
+$txt['page'] = 'Página';
+$txt['prev'] = 'anterior';
+$txt['next'] = 'siguiente';
 
-$txt['lock_unlock'] = 'Lock/Unlock Topic';
-$txt['post'] = 'Post';
+$txt['lock_unlock'] = 'Cerrar/abrir hilo';
+$txt['post'] = 'Post'; // TODO: verbo o sustantivo?
 $txt['error_occured'] = 'An Error Has Occurred';
-$txt['at'] = 'at';
-$txt['by'] = 'by';
-$txt['logout'] = 'Logout';
-$txt['started_by'] = 'Started by';
-$txt['topic_started_by'] = 'Started by <strong>%1$s</strong> in <em>%2$s</em>';
-$txt['replies'] = 'Replies';
-$txt['last_post'] = 'Last post';
-$txt['first_post'] = 'First post';
-$txt['last_poster'] = 'Last post by';
+$txt['at'] = 'at'; // TODO: comprobar contexto
+$txt['by'] = 'por';
+$txt['logout'] = 'Cerrar sesión';
+$txt['started_by'] = 'Iniciado por';
+$txt['topic_started_by'] = 'Iniciado por <strong>%1$s</strong> en <em>%2$s</em>';
+$txt['replies'] = 'Respuestas';
+$txt['last_post'] = 'Último mensaje';
+$txt['first_post'] = 'Primer mensaje';
+$txt['last_poster'] = 'Last post by'; // TODO: contexto
 $txt['last_post_message'] = '<strong>Last post: </strong>%3$s <span class="postby">%2$s by %1$s</span>';
 $txt['last_post_topic'] = '%1$s<br>by %2$s';
 $txt['post_by_member'] = '<strong>%1$s</strong> by <strong>%2$s</strong><br>';

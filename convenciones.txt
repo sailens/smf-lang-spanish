@@ -1,0 +1,14 @@
+NO UTILICÉIS CAMEL CASING. Vamos, Nada De Escribir Así.
+
+- thread/topic: hilo
+- board: foro
+- e-mail: email o correo electrónico
+- subject: asunto
+- post: mensaje
+- private message/personal message: mensaje privado
+- user watched: usuario vigilado
+- user muted: usuario silenciado
+- lock/unlock thread: abrir/cerrar hilo
+- sign up: registrarse
+- signin/login: iniciar sesión ("entrar" si no cabe)
+- logout: cerrar sesión ("salir" si no cabe)
