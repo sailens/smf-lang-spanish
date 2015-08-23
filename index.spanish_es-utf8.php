@@ -53,7 +53,7 @@ $txt['view_profile'] = 'Ver perfil';
 $txt['guest_title'] = 'Invitado';
 $txt['author'] = 'Autor';
 $txt['on'] = 'a las'; // TODO: Comprobar
-$txt['remove'] = 'Remove'; // TODO: borrar, eliminar?
+$txt['remove'] = 'Eliminar';
 $txt['start_new_topic'] = 'Crear un nuevo hilo';
 
 $txt['login'] = 'Iniciar sesión';
@@ -103,19 +103,19 @@ $txt['prev'] = 'anterior';
 $txt['next'] = 'siguiente';
 
 $txt['lock_unlock'] = 'Cerrar/abrir hilo';
-$txt['post'] = 'Post'; // TODO: verbo o sustantivo?
+$txt['post'] = 'Publicar';
 $txt['error_occured'] = 'Se ha producido un error';
-$txt['at'] = 'at'; // TODO: comprobar contexto
+$txt['at'] = 'en';
 $txt['by'] = 'por';
 $txt['logout'] = 'Cerrar sesión';
 $txt['started_by'] = 'Iniciado por';
 $txt['topic_started_by'] = 'Iniciado por <strong>%1$s</strong> en <em>%2$s</em>';
-$txt['replies'] = 'Respuestas';
+$txt['replies'] = 'respuestas';
 $txt['last_post'] = 'Último mensaje';
 $txt['first_post'] = 'Primer mensaje';
-$txt['last_poster'] = 'Last post by'; // TODO: contexto
-$txt['last_post_message'] = '<strong>Last post: </strong>%3$s <span class="postby">%2$s by %1$s</span>';
-$txt['last_post_topic'] = '%1$s<br>by %2$s';
+$txt['last_poster'] = 'Último mensaje por';
+$txt['last_post_message'] = '<strong>Último mensaje: </strong>%3$s <span class="postby">%2$s por %1$s</span>';
+$txt['last_post_topic'] = '%1$s<br>por %2$s';
 $txt['post_by_member'] = '<strong>%1$s</strong> por <strong>%2$s</strong><br>';
 $txt['boardindex_total_posts'] = '%1$s mensajes en %2$s hilos creados por %3$s usuarios';
 $txt['show'] = 'Mostrar';
@@ -146,14 +146,14 @@ $txt['reply_quote'] = 'Responder citando';
 $txt['reply'] = 'Responder';
 $txt['reply_noun'] = 'Reply';
 $txt['reply_number'] = 'Reply #%1$s';
-$txt['approve'] = 'Approve';
-$txt['unapprove'] = 'Unapprove';
-$txt['approve_all'] = 'approve all';
-$txt['issue_warning'] = 'Issue Warning';
-$txt['awaiting_approval'] = 'Awaiting Approval';
-$txt['attach_awaiting_approve'] = 'Attachments awaiting approval';
-$txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a moderator.';
-$txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
+$txt['approve'] = 'Aprobar';
+$txt['unapprove'] = 'Desaprobar';
+$txt['approve_all'] = 'aprobar todo';
+$txt['issue_warning'] = 'Enviar advertencia';
+$txt['awaiting_approval'] = 'Esperando aprobación';
+$txt['attach_awaiting_approve'] = 'Adjuntos esperando aprobación';
+$txt['post_awaiting_approval'] = 'Nota: este mensaje aún ha recibido el visto bueno por parte de la moderación.';
+$txt['there_are_unapproved_topics'] = 'Hay %1$s hilos y %2$s mensajes esperando aprobación en este foro. Pulsa <a href="%3$s">aquí</a> para verlos todos.';
 $txt['send_message'] = 'Send message';
 
 $txt['msg_alert_no_messages'] = 'no tienes ningún mensaje';
@@ -257,14 +257,14 @@ $txt['moderator'] = 'Moderador';
 $txt['moderators'] = 'Moderadores';
 
 $txt['mark_board_read'] = 'Mark Topics as Read for this Board';
-$txt['views'] = 'Views';
+$txt['views'] = 'lecturas';
 $txt['new'] = 'Nuevo';
 
-$txt['view_all_members'] = 'View All Members';
+$txt['view_all_members'] = 'Ver todos los usuarios';
 $txt['view'] = 'Ver';
 
-$txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
-$txt['of_total_members'] = 'of %1$s total members';
+$txt['viewing_members'] = 'Mostrando usuarios de %1$s a %2$s';
+$txt['of_total_members'] = 'de un total de %1$s';
 
 $txt['forgot_your_password'] = '¿Has olvidado tu contraseña?';
 
@@ -598,7 +598,7 @@ $txt['quick_reply_warning'] = '¡Advertencia! El hilo se encuentra actualmente c
 $txt['quick_reply_verification'] = 'Cuando envíes el mensaje, antes de publicarlo, se te redirigirá para verificarte %1$s.';
 $txt['quick_reply_verification_guests'] = '(necesario para invitados)';
 $txt['quick_reply_verification_posts'] = '(necesario para usuarios con menos de %1$d mensajes)';
-$txt['wait_for_approval'] = 'Aviso: este mensaje no se hará visible hasta que no haya sido aprobado por un moderador.';
+$txt['wait_for_approval'] = 'Nota: este mensaje no se hará visible hasta que no haya sido aprobado por un moderador.';
 
 $txt['notification_enable_board'] = 'Are you sure you wish to enable notification of new topics for this board?';
 $txt['notification_disable_board'] = 'Are you sure you wish to disable notification of new topics for this board?';
