@@ -2,8 +2,10 @@ NO UTILICÉIS CAMEL CASING. Vamos, Nada De Escribir Así.
 
 - alert: aviso
 - board: foro
+- buddy: amigo
 - e-mail: email o correo electrónico
 - directory/folder: carpeta
+- like: masmola
 - lock/unlock thread: abrir/cerrar hilo
 - logout: cerrar sesión ("salir" si no cabe)
 - post: mensaje

@@ -26,7 +26,7 @@ $txt['picture_text'] = 'Imagen/texto';
 $txt['reset_form'] = 'Reiniciar formulario';
 $txt['preferred_language'] = 'Idioma de preferencia';
 $txt['age'] = 'Edad';
-$txt['no_pic'] = '(no pic)';
+$txt['no_pic'] = '(en blanco)';
 $txt['latest_posts'] = 'Últimos mensajes de: ';
 $txt['additional_info'] = 'Información complementaria';
 $txt['avatar_by_url'] = 'Especifica la dirección URL de tu avatar. (ej.: <em>http://www.mypage.com/mypic.png</em>)';
@@ -383,15 +383,15 @@ $txt['showPermissions_global'] = 'All boards';
 $txt['showPermissions_restricted_boards'] = 'Restricted boards';
 $txt['showPermissions_restricted_boards_desc'] = 'The following boards are not accessible by this user';
 
-$txt['local_time'] = 'Local Time';
-$txt['posts_per_day'] = 'per day';
+$txt['local_time'] = 'Hora local';
+$txt['posts_per_day'] = 'por día';
 
 $txt['buddy_ignore_desc'] = 'This area allows you to maintain your buddy and ignore lists for this forum. Adding members to these lists will, amongst other things, help control mail and PM traffic, depending on your preferences.';
 
-$txt['buddy_add'] = 'Add To Buddy List';
-$txt['buddy_remove'] = 'Remove From Buddy List';
-$txt['buddy_add_button'] = 'Add';
-$txt['no_buddies'] = 'Your buddy list is currently empty';
+$txt['buddy_add'] = 'Añadir a la lista de amigos';
+$txt['buddy_remove'] = 'Eliminar de la lista de amigos';
+$txt['buddy_add_button'] = 'Añadir';
+$txt['no_buddies'] = 'Tu lista de amigos está vacía';
 
 $txt['ignore_add'] = 'Add To Ignore List';
 $txt['ignore_remove'] = 'Remove From Ignore List';

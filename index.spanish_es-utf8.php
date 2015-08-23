@@ -609,9 +609,9 @@ $txt['notification_disable_topic'] = 'Are you sure you wish to disable notificat
 $txt['mentions'] = 'Menciones';
 
 // Likes
-$txt['likes'] = 'Likes';
-$txt['like'] = 'Like';
-$txt['unlike'] = 'Unlike';
+$txt['likes'] = 'Masmolas';
+$txt['like'] = 'Masmola';
+$txt['unlike'] = 'Menosmola';
 $txt['like_success'] = 'Your content was successfully liked.';
 $txt['like_delete'] = 'Your content was successfully deleted.';
 $txt['like_insert'] = 'Your content was successfully inserted.';
