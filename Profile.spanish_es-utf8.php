@@ -4,67 +4,67 @@
 global $scripturl, $context;
 
 // Some of the things from the popup need their own descriptions
-$txt['popup_summary'] = 'My Profile';
-$txt['popup_showposts'] = 'My Posts';
-$txt['popup_ignore'] = 'Ignore People';
+$txt['popup_summary'] = 'Mi perfil';
+$txt['popup_showposts'] = 'Mis mensajes';
+$txt['popup_ignore'] = 'Ignorados';
 
-$txt['no_profile_edit'] = 'You are not allowed to change this person\'s profile.';
-$txt['website_title'] = 'Website title';
-$txt['website_url'] = 'Website URL';
-$txt['signature'] = 'Signature';
-$txt['profile_posts'] = 'Posts';
-$txt['change_profile'] = 'Change profile';
-$txt['preview_signature'] = 'Preview signature';
-$txt['current_signature'] = 'Current signature';
-$txt['signature_preview'] = 'Signature preview';
-$txt['delete_user'] = 'Delete user';
-$txt['current_status'] = 'Current Status:';
-$txt['personal_picture'] = 'Personalized Picture';
-$txt['no_avatar'] = 'No avatar';
-$txt['choose_avatar_gallery'] = 'Choose avatar from gallery';
-$txt['picture_text'] = 'Picture/Text';
-$txt['reset_form'] = 'Reset Form';
-$txt['preferred_language'] = 'Preferred Language';
-$txt['age'] = 'Age';
+$txt['no_profile_edit'] = 'No estás autorizado a alterar el perfil de este usuario.';
+$txt['website_title'] = 'Nombre de la página web';
+$txt['website_url'] = 'Dirección de la página web';
+$txt['signature'] = 'Firma';
+$txt['profile_posts'] = 'Mensajes';
+$txt['change_profile'] = 'Cambiar firma';
+$txt['preview_signature'] = 'Previsualizar firma';
+$txt['current_signature'] = 'Firma actual';
+$txt['signature_preview'] = 'Vista previa de la firma';
+$txt['delete_user'] = 'Eliminar usuario';
+$txt['current_status'] = 'Estado actual:';
+$txt['personal_picture'] = 'Imagen personalizada';
+$txt['no_avatar'] = 'Sin avatar';
+$txt['choose_avatar_gallery'] = 'Escoger un avatar de la galería';
+$txt['picture_text'] = 'Imagen/texto';
+$txt['reset_form'] = 'Reiniciar formulario';
+$txt['preferred_language'] = 'Idioma de preferencia';
+$txt['age'] = 'Edad';
 $txt['no_pic'] = '(no pic)';
-$txt['latest_posts'] = 'Latest posts of: ';
-$txt['additional_info'] = 'Additional Information';
-$txt['avatar_by_url'] = 'Specify your own avatar by URL. (e.g.: <em>http://www.mypage.com/mypic.png</em>)';
-$txt['my_own_pic'] = 'Specify avatar by URL';
-$txt['use_gravatar'] = 'Use my Gravatar';
-$txt['gravatar_alternateEmail'] = 'Normally, the Gravatar used will be based on your regular email address but if you wish to use the Gravatar from a different email account to your regular forum account (say, the Gravatar from your blog\'s email account), you can enter that email address here.';
-$txt['gravatar_noAlternateEmail'] = 'The Gravatar displayed will be the one based on your account\'s email address.';
-$txt['date_format'] = 'The format here will be used to show dates throughout this forum.';
-$txt['time_format'] = 'Time Format';
-$txt['timezone'] = 'Timezone';
-$txt['display_name_desc'] = 'This is the displayed name that people will see.';
+$txt['latest_posts'] = 'Últimos mensajes de: ';
+$txt['additional_info'] = 'Información complementaria';
+$txt['avatar_by_url'] = 'Especifica la dirección URL de tu avatar. (ej.: <em>http://www.mypage.com/mypic.png</em>)';
+$txt['my_own_pic'] = 'Usar un avatar de un servidor externo';
+$txt['use_gravatar'] = 'Usar mi Gravatar';
+$txt['gravatar_alternateEmail'] = 'Por defecto se empleará el correo electrónico asociado a tu cuenta del foro. Sin embargo, si quieres utilizar el avatar de Gravatar asociado a una cuenta diferente (por ejemplo, el Gravatar del correo electrónico de tu blog), puedes introducirlo a continuación.';
+$txt['gravatar_noAlternateEmail'] = 'El Gravatar mostrado será el correspondiente al correo electrónico asociado a tu cuenta del foro.';
+$txt['date_format'] = 'El formato especificado aquí se empleará en el foro para mostrarte las fechas y las horas.';
+$txt['time_format'] = 'Formato de hora y fecha';
+$txt['timezone'] = 'Huso horario';
+$txt['display_name_desc'] = 'Este es el nombre que el resto de personas verá.';
 $txt['personal_time_offset'] = 'Number of hours to +/- to make displayed time equal to your local time.';
-$txt['dob'] = 'Birthdate';
-$txt['dob_month'] = 'Month (MM)';
-$txt['dob_day'] = 'Day (DD)';
-$txt['dob_year'] = 'Year (YYYY)';
-$txt['password_strength'] = 'For best security, you should use eight or more characters with a combination of letters, numbers, and symbols.';
+$txt['dob'] = 'Fecha de nacimiento';
+$txt['dob_month'] = 'Mes (MM)';
+$txt['dob_day'] = 'Día (DD)';
+$txt['dob_year'] = 'Año (YYYY)';
+$txt['password_strength'] = 'Para una seguridad óptima, deberías emplear ocho o más caracteres, mezclando letras, números y símbolos.';
 $txt['include_website_url'] = 'This must be included if you specify a URL below.';
 $txt['complete_url'] = 'This must be a complete URL.';
-$txt['sig_info'] = 'Signatures are displayed at the bottom of each post or personal message. BBCode and smileys may be used in your signature.';
-$txt['no_signature_set'] = 'No signature set.';
+$txt['sig_info'] = 'Las firmas se muestra en la parte inferior de los mensajes. Para confeccionarla puedes emplear BBCode y emoticonos.';
+$txt['no_signature_set'] = 'Sin firma establecida.';
 $txt['no_signature_preview'] = 'No signature to preview.';
-$txt['max_sig_characters'] = 'Max characters: %1$d; characters remaining: ';
-$txt['send_member_pm'] = 'Send this member a personal message';
-$txt['hidden'] = 'hidden';
-$txt['current_time'] = 'Current forum time';
+$txt['max_sig_characters'] = 'Límite: %1$d caracteres. Restantes: ';
+$txt['send_member_pm'] = 'Enviar un mensaje privado a este usuario';
+$txt['hidden'] = 'oculto';
+$txt['current_time'] = 'Hora actual del foro';
 
-$txt['skype_username'] = 'Your Skype Username.';
+$txt['skype_username'] = 'Usuario de Skype.';
 
-$txt['language'] = 'Language';
-$txt['avatar_too_big'] = 'Avatar image is too big, please resize it and try again (max';
-$txt['invalid_registration'] = 'Invalid Date Registered value, valid example:';
-$txt['current_password'] = 'Current Password';
+$txt['language'] = 'Idioma';
+$txt['avatar_too_big'] = 'El avatar es demasiado grande. Redúcelo y vuelve a intentarlo (máx';
+$txt['invalid_registration'] = 'Fecha de registro no válida. Ejemplo:';
+$txt['current_password'] = 'Contraseña actual';
 // Don't use entities in the below string, except the main ones. (lt, gt, quot.)
-$txt['required_security_reasons'] = 'For security reasons, your current password is required to make changes to your account.';
-$txt['email_change_logout'] = 'Since you decided to change your email, you will need to reactivate your account. You will now be logged out.';
+$txt['required_security_reasons'] = 'Por razones de seguridad, debes introducir tu contraseña actual para realizar cambios en tu cuenta.';
+$txt['email_change_logout'] = 'Debido al cambio de correo electrónico, debes reactivar tu cuenta. A continuación se cerrará tu sesión.';
 
-$txt['timeoffset_autodetect'] = 'auto detect';
+$txt['timeoffset_autodetect'] = 'detectar automáticamente';
 
 $txt['secret_question'] = 'Secret Question';
 $txt['secret_desc'] = 'To help retrieve your password, enter a question here with an answer that <strong>only</strong> you know.';
@@ -84,17 +84,17 @@ $txt['authentication_password_email'] = 'Email me a new password';
 $txt['authentication_password_secret'] = 'Let me set a new password by answering my &quot;secret question&quot;';
 $txt['reminder_continue'] = 'Continue';
 
-$txt['current_theme'] = 'Current Theme';
-$txt['change'] = 'change';
-$txt['theme_preferences'] = 'Theme preferences';
-$txt['theme_forum_default'] = 'Forum or Board Default';
-$txt['theme_forum_default_desc'] = 'This is the default theme, which means your theme will change along with the administrator\'s settings and the board you are viewing.';
+$txt['current_theme'] = 'Tema actual';
+$txt['change'] = 'cambiar';
+$txt['theme_preferences'] = 'Preferencias del tema';
+$txt['theme_forum_default'] = 'Predeterminado';
+$txt['theme_forum_default_desc'] = 'Este es el tema por defecto, lo que significa que el tema que verás puede cambiar en función del foro o si los administradores escogen un nuevo tema predeterminado.';
 
-$txt['profileConfirm'] = 'Do you really want to delete this member?';
+$txt['profileConfirm'] = '¿Estás completamente seguro de que deseas eliminar este usuario?';
 
-$txt['custom_title'] = 'Custom Title';
+$txt['custom_title'] = 'Título personal';
 
-$txt['lastLoggedIn'] = 'Last Active';
+$txt['lastLoggedIn'] = 'Última vez activo';
 
 $txt['alert_prefs'] = 'Notification Preferences';
 $txt['alert_prefs_desc'] = 'This page will allow you to configure when and how you get notified about new content.';
@@ -238,10 +238,10 @@ $txt['ignoreboards'] = 'Ignore Boards';
 $txt['ignoreboards_info'] = 'This page lets you ignore particular boards. When a board is ignored, the new post indicator will not show up on the board index. New posts will not show up using the "unread post" search link (when searching it will not look in those boards) however, ignored boards will still appear on the board index and upon entering will show which topics have new posts. When using the "unread replies" link, new posts in an ignored board will still be shown.';
 $txt['alerts_show'] = 'Show Alerts';
 
-$txt['profileAction'] = 'Actions';
-$txt['deleteAccount'] = 'Delete this account';
-$txt['profileSendIm'] = 'Send personal message';
-$txt['profile_sendpm_short'] = 'Send PM';
+$txt['profileAction'] = 'Acciones';
+$txt['deleteAccount'] = 'Eliminar esta cuenta';
+$txt['profileSendIm'] = 'Enviar un mensaje privado';
+$txt['profile_sendpm_short'] = 'Enviar MP';
 
 $txt['profileBanUser'] = 'Ban this user';
 
@@ -270,17 +270,17 @@ $txt['none'] = 'None';
 $txt['own_profile_confirm'] = 'Are you sure you want to delete your account?';
 $txt['view_ips_by'] = 'View IPs used by';
 
-$txt['avatar_will_upload'] = 'Upload an avatar';
-$txt['avatar_max_size_wh'] = 'Max size: %1$spx by %2$spx';
-$txt['avatar_max_size_w'] = 'Max size: %1$spx wide';
-$txt['avatar_max_size_h'] = 'Max size: %2$spx high';
+$txt['avatar_will_upload'] = 'Subir un avatar';
+$txt['avatar_max_size_wh'] = 'Límite: %1$spx por %2$spx';
+$txt['avatar_max_size_w'] = 'Límite: %1$spx de ancho';
+$txt['avatar_max_size_h'] = 'Límite: %2$spx de alto';
 
 // Use numeric entities in the below three strings.
 $txt['no_reminder_email'] = 'Unable to send reminder email.';
 $txt['send_email'] = 'Send an email to';
 $txt['to_ask_password'] = 'to ask for your authentication details';
 
-$txt['user_email'] = 'Username/Email';
+$txt['user_email'] = 'Usuario/email';
 
 // Use numeric entities in the below two strings.
 $txt['reminder_subject'] = 'New password for ' . $context['forum_name'];
@@ -293,11 +293,11 @@ $txt['reminder_error'] = '%1$s failed to answer their secret question correctly 
 $txt['registration_not_approved'] = 'Sorry, this account has not yet been approved. If you need to change your email address please click <a href="%1$s">here</a>.';
 $txt['registration_not_activated'] = 'Sorry, this account has not yet been activated. If you need to resend the activation email please click <a href="%1$s">here</a>';
 
-$txt['primary_membergroup'] = 'Primary Membergroup';
-$txt['additional_membergroups'] = 'Additional Membergroups';
-$txt['additional_membergroups_show'] = 'show additional groups';
-$txt['no_primary_membergroup'] = '(no primary membergroup)';
-$txt['deadmin_confirm'] = 'Are you sure you wish to irrevocably remove your admin status?';
+$txt['primary_membergroup'] = 'Grupo primario';
+$txt['additional_membergroups'] = 'Grupos adicionales';
+$txt['additional_membergroups_show'] = 'mostrar grupos adicionales';
+$txt['no_primary_membergroup'] = '(sin grupo primario)';
+$txt['deadmin_confirm'] = '¿Estás seguro de que deseas dimitir como administrador? Esta operación <strong>no se puede deshacer</strong>.';
 
 $txt['account_activate_method_2'] = 'Account requires reactivation after email change';
 $txt['account_activate_method_3'] = 'Account is not approved';
@@ -323,12 +323,12 @@ $txt['recent_posts_at_top'] = 'Show most recent posts at the top in topic view.'
 $txt['recent_pms_at_top'] = 'Show most recent personal messages at top.';
 $txt['wysiwyg_default'] = 'Show WYSIWYG editor on post page by default.';
 
-$txt['timeformat_default'] = '(Forum Default)';
-$txt['timeformat_easy1'] = 'Month Day, Year, HH:MM:SS am/pm';
-$txt['timeformat_easy2'] = 'Month Day, Year, HH:MM:SS (24 hour)';
-$txt['timeformat_easy3'] = 'YYYY-MM-DD, HH:MM:SS';
-$txt['timeformat_easy4'] = 'DD Month YYYY, HH:MM:SS';
-$txt['timeformat_easy5'] = 'DD-MM-YYYY, HH:MM:SS';
+$txt['timeformat_default'] = '(predeterminado)';
+$txt['timeformat_easy1'] = 'Mes Día, Año, HH:MM:SS am/pm';
+$txt['timeformat_easy2'] = 'Mes Día, Año, HH:MM:SS (24 horas)';
+$txt['timeformat_easy3'] = 'AAAA-MM-DD, HH:MM:SS';
+$txt['timeformat_easy4'] = 'DD Mes AAAA, HH:MM:SS';
+$txt['timeformat_easy5'] = 'DD-MM-AAAA, HH:MM:SS';
 
 $txt['poster'] = 'Poster';
 
