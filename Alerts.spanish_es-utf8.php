@@ -2,7 +2,7 @@
 // Version: 2.1 Beta 2; Alerts
 
 // Load Alerts strings
-$txt['topic_na'] = '(tema privado)';
+$txt['topic_na'] = '(hilo privado)';
 $txt['board_na'] = '(foro privado)';
 
 $txt['all_alerts'] = 'Todos los avisos';
@@ -10,18 +10,18 @@ $txt['mark_alerts_read'] = 'Marcar como leídos';
 $txt['alert_settings'] = 'Opciones';
 $txt['alerts_no_unread'] = 'No hay avisos sin leer.';
 
-$txt['alert_topic_reply'] = '{member_link} ha respondido en el tema {topic_msg}';
-$txt['alert_topic_move'] = 'El tema {topic_msg} ha sido movido a {board_msg}';
-$txt['alert_topic_remove'] = 'El tema {topic_msg} ha sido eliminado';
-$txt['alert_topic_unlock'] = 'El tema {topic_msg} ha sido reabierto';
-$txt['alert_topic_lock'] = 'El tema {topic_msg} ha sido cerrado';
-$txt['alert_topic_split'] = 'El tema {topic_msg} ha sido dividido';
-$txt['alert_topic_merge'] = 'Dos o más temas han sido unidos en {topic_msg}';
-$txt['alert_topic_sticky'] = 'El tema {topic_msg} está ahora fijado';
-$txt['alert_board_topic'] = '{member_link} ha creado el tema {topic_msg} en {board_msg}';
-$txt['alert_unapproved_topic'] = '{member_link} ha creado el tema {topic_msg}, no aprobado, en {board_msg}';
+$txt['alert_topic_reply'] = '{member_link} ha respondido en el hilo {topic_msg}';
+$txt['alert_topic_move'] = 'El hilo {topic_msg} ha sido movido a {board_msg}';
+$txt['alert_topic_remove'] = 'El hilo {topic_msg} ha sido eliminado';
+$txt['alert_topic_unlock'] = 'El hilo {topic_msg} ha sido reabierto';
+$txt['alert_topic_lock'] = 'El hilo {topic_msg} ha sido cerrado';
+$txt['alert_topic_split'] = 'El hilo {topic_msg} ha sido dividido';
+$txt['alert_topic_merge'] = 'Dos o más hilos han sido unidos en {topic_msg}';
+$txt['alert_topic_sticky'] = 'El hilo {topic_msg} está ahora fijado';
+$txt['alert_board_topic'] = '{member_link} ha creado el hilo {topic_msg} en {board_msg}';
+$txt['alert_unapproved_topic'] = '{member_link} ha creado el hilo {topic_msg}, no aprobado, en {board_msg}';
 $txt['alert_unapproved_post'] = '{member_link} ha escrito un nuevo post {topic_msg}, no aprobado, en {board_msg}';
-$txt['alert_unapproved_reply'] = '{member_link} ha respondido en tu tema no aprobado {topic_msg} en {board_msg}';
+$txt['alert_unapproved_reply'] = '{member_link} ha respondido en tu hilo no aprobado {topic_msg} en {board_msg}';
 $txt['alert_msg_quote'] = '{member_link} te ha citado en el mensaje {msg_msg}';
 $txt['alert_msg_mention'] = '{member_link} te ha mencionado en el mensaje {msg_msg}';
 $txt['alert_msg_like'] = 'A {member_link} le gusta tu mensaje {msg_msg}';

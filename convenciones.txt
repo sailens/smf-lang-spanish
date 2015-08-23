@@ -1,14 +1,17 @@
-NO UTILICÉIS CAMEL CASING. Vamos, Nada De Escribir Así.
+NO UTILICÃ‰IS CAMEL CASING. Vamos, Nada De Escribir AsÃ­.
 
-- thread/topic: hilo
+- alert: aviso
 - board: foro
-- e-mail: email o correo electrónico
-- subject: asunto
+- e-mail: email o correo electrÃ³nico
+- directory/folder: carpeta
+- lock/unlock thread: abrir/cerrar hilo
+- logout: cerrar sesiÃ³n ("salir" si no cabe)
 - post: mensaje
 - private message/personal message: mensaje privado
+- sign up: registrarse
+- signin/login: iniciar sesiÃ³n ("entrar" si no cabe)
+- subject: asunto
+- thread/topic: hilo
 - user watched: usuario vigilado
 - user muted: usuario silenciado
-- lock/unlock thread: abrir/cerrar hilo
-- sign up: registrarse
-- signin/login: iniciar sesión ("entrar" si no cabe)
-- logout: cerrar sesión ("salir" si no cabe)
+- warning: advertencia
