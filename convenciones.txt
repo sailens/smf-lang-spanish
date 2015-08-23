@@ -12,6 +12,7 @@ NO UTILICÉIS CAMEL CASING. Vamos, Nada De Escribir Así.
 - signin/login: iniciar sesión ("entrar" si no cabe)
 - subject: asunto
 - thread/topic: hilo
+- user/member: usuario
 - user watched: usuario vigilado
 - user muted: usuario silenciado
 - warning: advertencia
