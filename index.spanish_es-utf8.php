@@ -42,7 +42,7 @@ $txt['save'] = 'Guardar';
 $txt['upload'] = 'Subir';
 
 $txt['modify'] = 'Modificar';
-$txt['forum_index'] = '%1$s - Index'; // TODO: Mirar dónde se usa esto
+$txt['forum_index'] = '%1$s - Índice';
 $txt['members'] = 'Usuarios';
 $txt['board_name'] = 'Foros';
 $txt['posts'] = 'Mensajes';
@@ -64,7 +64,7 @@ $txt['password'] = 'Contraseña';
 $txt['username_no_exist'] = 'El usuario especificado no existe.';
 $txt['no_user_with_email'] = 'No existen usuarios asociados al correo electrónico proporcionado.';
 
-$txt['board_moderator'] = 'Board Moderator'; // TODO
+$txt['board_moderator'] = 'Moderador del foro';
 $txt['remove_topic'] = 'Eliminar hilo';
 $txt['topics'] = 'Hilos';
 $txt['modify_msg'] = 'Modificar mensaje';
@@ -73,12 +73,12 @@ $txt['email'] = 'Email';
 $txt['user_email_address'] = 'Email';
 $txt['subject'] = 'Asunto';
 $txt['message'] = 'Mensaje';
-$txt['redirects'] = 'Redirects'; // TODO
+$txt['redirects'] = 'Redirecciones';
 $txt['quick_modify'] = 'Modify Inline'; // TODO
 $txt['reason_for_edit'] = 'Motivo de la edición';
 
-$txt['choose_pass'] = 'Choose password'; // TODO
-$txt['verify_pass'] = 'Verify password'; // TODO
+$txt['choose_pass'] = 'Contraseña';
+$txt['verify_pass'] = 'Verificación de la contraseña';
 $txt['notify_announcements'] = 'Permitir a los administradores enviarme noticias importantes por correo electrónico';
 
 $txt['position'] = 'Posición';
@@ -87,15 +87,15 @@ $txt['profile_of'] = 'Ver el perfil de';
 $txt['total'] = 'Total';
 $txt['website'] = 'Página web';
 $txt['register'] = 'Registrarse';
-$txt['warning_status'] = 'Warning Status'; // TODO
-$txt['user_warn_watch'] = 'User is on moderator watch list'; // TODO
-$txt['user_warn_moderate'] = 'User posts join approval queue'; // TODO
-$txt['user_warn_mute'] = 'User is banned from posting'; // TODO
+$txt['warning_status'] = 'Estado del usuario';
+$txt['user_warn_watch'] = 'El usuario está siendo vigilado';
+$txt['user_warn_moderate'] = 'El usuario está esperando aprobación';
+$txt['user_warn_mute'] = 'El usuario no puede publicar mensajes';
 $txt['warn_watch'] = 'Vigilado';
 $txt['warn_moderate'] = 'Moderado';
 $txt['warn_mute'] = 'Silenciado';
 
-$txt['message_index'] = 'Message Index'; // TODO
+$txt['message_index'] = 'Índice de mensajes';
 $txt['news'] = 'Noticias';
 $txt['home'] = 'Inicio';
 $txt['page'] = 'Página';
@@ -266,7 +266,7 @@ $txt['view'] = 'Ver';
 $txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
 $txt['of_total_members'] = 'of %1$s total members';
 
-$txt['forgot_your_password'] = 'Forgot your password?';
+$txt['forgot_your_password'] = '¿Has olvidado tu contraseña?';
 
 $txt['date'] = 'Fecha';
 // Use numeric entities in the below string.
@@ -282,44 +282,44 @@ $txt['old_posts'] = 'No hay mensajes nuevos';
 $txt['redirect_board'] = 'Redirect Board';
 
 $txt['sendtopic_send'] = 'Send';
-$txt['report_sent'] = 'Your report has been sent successfully.';
+$txt['report_sent'] = 'Tu reporte ha sido enviado satisfactoriamente.';
 $txt['post_becomesUnapproved'] = 'Your message became unapproved because it was posted on an unapproved topic, once the topic gets approved your message will be approved too.';
 
 $txt['time_offset'] = 'Time Offset';
-$txt['or'] = 'or';
+$txt['or'] = 'o'; // TODO: comprobar si "o" o "ó"
 
-$txt['no_matches'] = 'Sorry, no matches were found';
+$txt['no_matches'] = 'Lo sentimos, no se han encontrado coincidencias';
 
 $txt['notification'] = 'Notification';
 
-$txt['your_ban'] = 'Sorry %1$s, you are banned from using this forum!';
-$txt['your_ban_expires'] = 'This ban is set to expire %1$s.';
-$txt['your_ban_expires_never'] = 'This ban is not set to expire.';
-$txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.';
+$txt['your_ban'] = 'Lo sentimos %1$s, tienes vetado el acceso a este foro.';
+$txt['your_ban_expires'] = 'Dicho veto expira %1$s.';
+$txt['your_ban_expires_never'] = 'Dicho veto es permanente y no expira.';
+$txt['ban_continue_browse'] = 'Puedes seguir ojeando el foro como invitado.';
 
-$txt['mark_as_read'] = 'Mark ALL messages as read';
+$txt['mark_as_read'] = 'Marcar TODOS los mensajes como leídos';
 
-$txt['locked_topic'] = 'Locked Topic';
-$txt['normal_topic'] = 'Normal Topic';
-$txt['participation_caption'] = 'Topic you have posted in';
-$txt['moved_topic'] = 'Moved Topic';
+$txt['locked_topic'] = 'Hilo cerrado';
+$txt['normal_topic'] = 'Hilo normal';
+$txt['participation_caption'] = 'Hilo en que has participado';
+$txt['moved_topic'] = 'Hilo movido';
 
 $txt['go_caps'] = 'IR';
 
 $txt['print'] = 'Imprimir';
 $txt['profile'] = 'Perfil';
-$txt['topic_summary'] = 'Topic Summary';
+$txt['topic_summary'] = 'Resumen del hilo';
 $txt['not_applicable'] = 'N/A';
-$txt['name_in_use'] = 'This name is already in use by another member.';
+$txt['name_in_use'] = 'Este nombre ya está siendo usado por otro usuario.';
 
 $txt['total_members'] = 'Total Members';
 $txt['total_posts'] = 'Total Posts';
 $txt['total_topics'] = 'Total Topics';
 
-$txt['mins_logged_in'] = 'Minutes to stay logged in';
+$txt['mins_logged_in'] = 'Duración de la sesión';
 
-$txt['preview'] = 'Preview';
-$txt['always_logged_in'] = 'Always stay logged in';
+$txt['preview'] = 'Vista previa';
+$txt['always_logged_in'] = 'Mantener la sesión abierta';
 
 $txt['logged'] = 'Logged';
 // Use numeric entities in the below string.
@@ -358,7 +358,7 @@ $txt['print_page_images'] = 'Texto e imágenes';
 $txt['valid_email'] = 'Debe ser un correo electrónico válido.';
 
 $txt['geek'] = 'I am a geek!!';
-$txt['info_center_title'] = '%1$s - Info Center';
+$txt['info_center_title'] = '%1$s - Información';
 
 $txt['watch'] = 'Watch';
 $txt['unwatch'] = 'Stop watching';
@@ -399,7 +399,7 @@ $txt['two_weeks'] = '2 semanas';
 $txt['one_month'] = '1 meses';
 $txt['two_months'] = '2 meses';
 $txt['forever'] = 'Permanente';
-$txt['quick_login_dec'] = 'Login with username, password and session length';
+$txt['quick_login_dec'] = 'Inicia sesión con un usuario, contraseña y duración de la sesión';
 $txt['one_hour'] = '1 Hour';
 $txt['moved'] = 'MOVED';
 $txt['move_why'] = 'Por favor introduce una breve razón de<br>porqué va a ser movido este hilo.';
